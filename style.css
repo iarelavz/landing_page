@@ -84,12 +84,9 @@ a{
 
 }
 .elso_kep {
-    display: flex;
-    height: 250px;
+    max-height: 250px;
     width: auto;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 .harmadik{
@@ -118,6 +115,40 @@ a{
     font-weight: bold;
 }
 
+.negyedik{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.negyedik_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 2% 4% 2% 4%;
+    margin: 3%;
+}
+
+
+.negyedik_szoveg{
+
+}
+
+.negyedik_cim {
+
+}
+
+.negyedik_alszoveg {
+
+}
+
+.negyedik.gomb {
+
+
+}
 .footer{
     display:flex;
     align-items:center;
