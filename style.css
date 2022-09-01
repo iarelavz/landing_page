@@ -15,10 +15,12 @@ a{
     font-size: 18px;
 
 }
-
-img{
+.header_kep{
     height: 50px;
     width: auto;    
+}
+.writer{
+    font-weight: bold;
 }
 .page{
     display: flex;
@@ -33,16 +35,57 @@ img{
     align-items: center;
     padding: 16px;
 }
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 
-.quote {
+}
+
+.elso_szoveg {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.signup {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+.elso_kep {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.harmadik{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-left:400px;
+    margin-right: 400px;
+    padding: 50px;
+   
+}
+.idezet{
     font-size: 36px;
     font-style: italic;
     color:#1f2937
 }
+.writer{
+    font-weight: bold;
+}
+
 .footer{
     display:flex;
     align-items:center;
@@ -50,5 +93,6 @@ img{
     background-color:#1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 34px;
 
 }
