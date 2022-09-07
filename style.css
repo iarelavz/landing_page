@@ -82,13 +82,91 @@ a{
     align-items: center;
     justify-content: center;
 
+
 }
 .elso_kep {
     max-height: 250px;
     width: auto;
-    align-items: center;   
+    align-items: center;
+    border-radius: 50%;   
 }
 
+
+.masodik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.masodikcim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.nagykonti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.masodik_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+
+.doboz{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.kisdoboz {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    flex: auto;
+}
+
+.dobozkep {
+    border-color: #3882F6;
+    
+    border-radius: 10%;
+    max-height: 150px;
+    width: 150px;
+    
+
+}
+.kisszoveg {
+    text-align: center;
+    margin: 10px 15px 10px 15px;
+    font-size: 18px;
+    width: 150px;
+    
+
+
+
+}
 .harmadik{
     display: flex;
     justify-content: center;
@@ -101,15 +179,16 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    margin-left:400px;
-    margin-right: 400px;
+    margin-left:20%;
+    margin-right: 20%;
     padding: 50px;
    
 }
 .idezet{
     font-size: 36px;
     font-style: italic;
-    color:#1f2937
+    color:#1f2937;
+    margin-bottom: 5%;
 }
 .writer{
     font-weight: bold;
@@ -124,7 +203,7 @@ a{
 
 .negyedik_container{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     border-radius: 8px;
@@ -134,19 +213,28 @@ a{
 
 
 .negyedik_szoveg{
-
+    color: #E5E7EB;
 }
 
 .negyedik_cim {
-
+    font-size: 24px;
 }
 
 .negyedik_alszoveg {
-
+    font-size: 18px;
+    margin-right: 64px;
 }
 
-.negyedik.gomb {
-
+.negyedik_gomb {
+    background: #3882F6;
+    border: 1px solid #f9faf8;
+    color: #fff;
+    padding: 8px 32px 8px 32px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 8px;
+    font-weight: 400;
+    
 
 }
 .footer{
@@ -157,5 +245,6 @@ a{
     color: #E5E7EB;
     font-size: 18px;
     padding: 34px;
+    font-weight: 900;
 
 }
